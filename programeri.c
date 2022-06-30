@@ -8,8 +8,9 @@
 #include <pthread.h>
 #include <semaphore.h>
 #include <sys/wait.h>
-#include <errno.h>
 #include <math.h>
+#include <errno.h>
+
 
 pthread_mutex_t monitor;
 pthread_cond_t red[2];
